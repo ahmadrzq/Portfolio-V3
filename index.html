@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/extras/fontawesome.6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Portfolio V3</title>
+</head>
+
+<body>
+    <!--==================== STYLE SWITCHER ====================-->
+    <input type="radio" name="color" id="color-1">
+    <input type="radio" name="color" id="color-2">
+    <input type="radio" name="color" id="color-3">
+    <input type="radio" name="color" id="color-4">
+    <input type="radio" name="color" id="color-5">
+    <input type="radio" name="color" id="color-6">
+    <input type="radio" name="color" id="color-7">
+    <input type="radio" name="color" id="color-8">
+    <input type="radio" name="color" id="color-9">
+    <input type="radio" name="color" id="color-10">
+    <input type="checkbox" name="" id="toggler">
+    <input type="checkbox" name="" id="day-night">
+
+    <div class="style__switcher">
+        <label for="toggler" class="style__switcher-toggler">
+            <i class="fa-solid fa-gear fa-spin"></i>
+        </label>
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+        <h3 class="style__switcher-title">Theme Colors</h3>
+        <div class="style__switcher-colors">
+            <label for="color-1" class="color-1 color"></label>
+            <label for="color-2" class="color-2 color"></label>
+            <label for="color-3" class="color-3 color"></label>
+            <label for="color-4" class="color-4 color"></label>
+            <label for="color-5" class="color-5 color"></label>
+            <label for="color-6" class="color-6 color"></label>
+            <label for="color-7" class="color-7 color"></label>
+            <label for="color-8" class="color-8 color"></label>
+            <label for="color-9" class="color-9 color"></label>
+            <label for="color-10" class="color-10 color"></label>
+        </div>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Ahmad Rizqi Isnain</a>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#qualification" class="nav__link">Experience</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#portfolio" class="nav__link">Portfolio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__small">Hello</span>
+                    <h1 class="home__title"><span>I'm</span> Ahmad Rizqi Isnain <br> <span>a Web Developer</span></h1>
+                    <p class="home__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat qui
+                        dignissimos, atque quidem consequuntur non sed blanditiis ipsum explicabo, at optio perspiciatis
+                        cupiditate nostrum dolorem, ea magni minus? Aliquid, aliquam?</p>
+                    <div class="home__btns">
+                        <a href="#contact" class="btn">Hire Me</a>
+                        <a href="#portfolio" class="btn btn--transparent">Portfolio</a>
+                    </div>
+                </div>
+                <div class="home__img-wrapper">
+                    <img src="assets/images/profile.png" alt="Profile" class="home__img">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="assets/images/about.jpg" alt="" class="about__img">
+                    <img src="assets/images/about.jpg" alt="" class="about__img">
+                    <img src="assets/images/about.jpg" alt="" class="about__img">
+                    <img src="assets/images/about.jpg" alt="" class="about__img">
+                </div>
+                <div class="about__content">
+                    <h2 class="section__title" data-title="Who am i?">I'm Ahmad Rizqi Isnain, a Web Developer
+                    </h2>
+                    <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                        temporibus corporis et commodi maxime culpa quam perferendis libero cupiditate. Nostrum, modi
+                        recusandae! Quibusdam assumenda temporibus iste beatae aperiam, voluptates laudantium aliquid
+                        voluptatibus quidem obcaecati maxime officia corrupti a perferendis perspiciatis? Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Excepturi, aliquid.</p>
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name:</h3>
+                            <span class="data__description">Ahmad Rizqi Isnain</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Age:</h3>
+                            <span class="data__description">23 Years</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__description">Probolinggo, Indonesia</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <span class="data__description about__link">ahmadrizqiisnain@gmail.com</span>
+                        </li>
+                    </ul>
+                    <div class="about__bottom">
+                        <a href="" class="btn">Download CV</a>
+
+                        <div class="about__social-links">
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="" class="about__social-link">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h1 class="section__title title-center" data-title="My Journey">Qualification</h1>
+
+            <div class="resume__container container grid">
+                <div class="resume__group">
+                    <h3 class="resume__heading">Education</h3>
+
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">University Of Jember</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Information Technology</h3>
+                                    <span class="resume__date">2018-2023</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed
+                                    praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur
+                                    magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">SMAN 3 Probolinggo</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Science</h3>
+                                    <span class="resume__date">2016-2018</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed
+                                    praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur
+                                    magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Coderhouse Course</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Backend Programming</h3>
+                                    <span class="resume__date">2020-2021</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Coderhouse Course</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Backend Programming</h3>
+                                    <span class="resume__date">2020-2021</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+
+                <div class="resume__group">
+                    <h3 class="resume__heading">Experience</h3>
+
+                    <div class="resume__items">
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Freelance Web Developer</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Work From Anywhere</h3>
+                                    <span class="resume__date">2023 - Now</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed
+                                    praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur
+                                    magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Project-Based Intern : Fullstack Developer Virtual
+                                    Internship Experience Investree</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Investree</h3>
+                                    <span class="resume__date">June 2022 - July 2022</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed
+                                    praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur
+                                    magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Coderhouse Course</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Backend Programming</h3>
+                                    <span class="resume__date">2020-2021</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="resume__item">
+                            <div class="resume__header">
+                                <h3 class="resume__subtitle">Coderhouse Course</h3>
+                                <span class="resume__icon">+</span>
+                            </div>
+                            <div class="resume__content">
+                                <div class="resume__date-title">
+                                    <h3 class="resume__title">Backend Programming</h3>
+                                    <span class="resume__date">2020-2021</span>
+                                </div>
+
+                                <p class="resume__description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facilis sed praesentium, quasi enim voluptatum fugit? Voluptas consequuntur quisquam pariatur magnam. Quam perspiciatis molestiae repellendus.
+                                </p>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title title-center" data-title="Services">
+                What I Do For You
+            </h2>
+
+            <div class="services__container container grid">
+                <div class="services__item">
+                    <i class="fa-solid fa-globe services__icon"></i>
+                    <h3 class="services__title">Frontend Web</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus modi obcaecati
+                        asperiores fugiat!
+                    </p>
+
+                    <span class="services__no">01</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-database services__icon"></i>
+                    <h3 class="services__title">Backend Web</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus modi obcaecati
+                        asperiores fugiat!
+                    </p>
+
+                    <span class="services__no">02</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-to-square services__icon"></i>
+                    <h3 class="services__title">Fullstack Web</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus modi obcaecati
+                        asperiores fugiat!
+                    </p>
+
+                    <span class="services__no">03</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-pen-fancy services__icon"></i>
+                    <h3 class="services__title">Design Web</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus modi obcaecati
+                        asperiores fugiat!
+                    </p>
+
+                    <span class="services__no">04</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-heart services__icon"></i>
+                    <h3 class="services__title">Healing Web</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus modi obcaecati
+                        asperiores fugiat!
+                    </p>
+
+                    <span class="services__no">05</span>
+                </div>
+                <div class="services__item">
+                    <i class="fa-solid fa-laptop services__icon"></i>
+                    <h3 class="services__title">Deploy Web</h3>
+                    <p class="services__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore necessitatibus modi obcaecati
+                        asperiores fugiat!
+                    </p>
+
+                    <span class="services__no">06</span>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title title-center" data-title="My Talent">
+                Professional Skills
+            </h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">HTML</h3>
+                        <span class="skills__no">80%</span>
+                    </div>
+                    <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aspernatur?
+                    </p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 80%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">CSS</h3>
+                        <span class="skills__no">80%</span>
+                    </div>
+                    <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aspernatur?
+                    </p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 80%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Javascript</h3>
+                        <span class="skills__no">60%</span>
+                    </div>
+                    <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aspernatur?
+                    </p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 60%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">ReactJS</h3>
+                        <span class="skills__no">50%</span>
+                    </div>
+                    <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aspernatur?
+                    </p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 50%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">PHP</h3>
+                        <span class="skills__no">60%</span>
+                    </div>
+                    <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aspernatur?
+                    </p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 60%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Laravel</h3>
+                        <span class="skills__no">50%</span>
+                    </div>
+                    <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aspernatur?
+                    </p>
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style="width: 50%">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title title-center" data-title="My Portfolio">
+                Recent Works
+            </h2>
+
+            <div class="work__container container grid">
+                <div class="work__card">
+                    <img src="assets/images/project1.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Frontend Web</h3>
+                        <span class="work__description">Jobless</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="assets/images/project2.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Frontend Web</h3>
+                        <span class="work__description">Hulu clone</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="assets/images/project3.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Frontend Web</h3>
+                        <span class="work__description">Ourent</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="assets/images/project4.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Frontend Web</h3>
+                        <span class="work__description">Ice Cream Oasis</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="assets/images/project5.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Frontend Web</h3>
+                        <span class="work__description">Shobeedobee</span>
+                    </div>
+                </div>
+                <div class="work__card">
+                    <img src="assets/images/project6.png" alt="" class="work__img">
+                    <div class="work__details">
+                        <h3 class="work__title">Frontend Web</h3>
+                        <span class="work__description">Coffe and Tea</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials section" id="testimonials">
+            <h2 class="section__title title-center" data-title="Testimonials">
+                What My Clients Say
+            </h2>
+
+            <div class="testimonials__container container grid">
+                <div class="testimonials__item">
+                    <p class="testimonials__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                        repellendus itaque quo voluptas quos, neque sed ipsam incidunt quibusdam rem velit similique
+                        obcaecati tempore laudantium voluptatem temporibus tenetur totam libero!</p>
+                    <div class="testimonials__data">
+                        <img src="assets/images/testi3.jpg" alt="" class="testimonials__img">
+                        <div>
+                            <h3 class="testimonials__name">Jhon Doe</h3>
+                            <span class="testimonials__identity">Malang, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__item">
+                    <p class="testimonials__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                        repellendus itaque quo voluptas quos, neque sed ipsam incidunt quibusdam rem velit similique
+                        obcaecati tempore laudantium voluptatem temporibus tenetur totam libero!</p>
+                    <div class="testimonials__data">
+                        <img src="assets/images/testi2.jpg" alt="" class="testimonials__img">
+                        <div>
+                            <h3 class="testimonials__name">Linus Torbar</h3>
+                            <span class="testimonials__identity">Surabaya, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="Get in touch">
+                Contact Me
+            </h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Call Us</h3>
+                            <span class="contact__data">+6282235955586</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email Us</h3>
+                            <span class="contact__data">ahmadrizqiisnain@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Jl. Raya Kuripan, Karanganyar, Bantaran, Probolinggo, Jawa
+                                Timur, Indonesia</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control">
+                        </div>
+                        <div class="form__input">
+                            <input type="text" placeholder="Email" class="input__control">
+                        </div>
+                    </div>
+                    <div class="form__input">
+                        <input type="text" placeholder="Subject" class="input__control">
+                    </div>
+                    <div class="form__input">
+                        <textarea name="" id="" placeholder="Message" cols="30" rows="10"
+                            class="input__control textarea"></textarea>
+                    </div>
+                    <button class="btn contact__btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2023 Ahmad Rizqi Isnain. All Rights Reserved</p>
+
+            <div class="footer__social-links">
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
