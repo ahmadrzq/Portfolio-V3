@@ -3,7 +3,7 @@
   font-family: "Jost";
   src: url("../extras/fonts/Jost[wght].ttf");
 } */
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* ==================== Variable CSS ==================== */
 :root {
@@ -532,8 +532,8 @@ input[type="checkbox"] {
   text-align: center;
   cursor: pointer;
   position: absolute;
-  right: -1.5rem;
-  bottom: -1.5rem;
+  right: -1rem;
+  bottom: -1rem;
   z-index: 10;
 }
 .resume__content {
@@ -789,6 +789,109 @@ input[type="checkbox"] {
   font-size: var(--large-font-size);
 }
 
-/* ==================== Google Fonts ==================== */
+/* ==================== RESPONSIVE ==================== */
+@media screen and (max-width: 768px) {
+  :root {
+    --big-font-size: 2.7rem;
+    --h1-font-size: 2.2rem;
+    --h2-font-size: 1.95rem;
+    --h3-font-size: 1.2rem;
+    --larger-font-size: 0.9rem;
+    --large-font-size: 0.825rem;
+  }
+  /* Header */
+  .nav__list {
+    display: none;
+  }
+  /* Home */
+  .home__container {
+    grid-template-columns: 1fr;
+  }
+  .home__img-wrapper {
+    margin-inline: auto;
+    position: relative;
+  }
+  /* ABOUT */
+  .about__container {
+    grid-template-columns: 1fr;
+  }
+  .about__img-wrapper {
+    height: 300px;
+  }
+  /* SERVICES */
+  .services__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* SKILLS */
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* PORTFOLIO  */
+  .work__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* TESTIMONIALS  */
+  .testimonials__container {
+    grid-template-columns: 1fr;
+  }
+  .testimonials__item {
+    text-align: center;
+  }
+  .testimonials__data {
+    justify-content: center;
+  }
+  /* Contact */
+  .contact__container {
+    grid-template-columns: 1fr;
+  }
+  .contact__details {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  /* ABOUT */
+  .about__data {
+    grid-template-columns: 1fr;
+  }
+  .about__bottom {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .about__social-links::before {
+    content: none;
+  }
+  /* QUALIFICATION */
+  .resume__container {
+    grid-template-columns: 1fr;
+  }
+  .resume__icon{
+    width: 30px;
+    height: 30px;
+    font-size: var(--h3-font-size);
+  }
+  /* SERVICES  */
+  .services__container {
+    grid-template-columns: 1fr;
+  }
+  /* SKILLS */
+  .skills__container {
+    grid-template-columns: 1fr;
+  }
+  /* PORTFOLIO  */
+  .work__container {
+    grid-template-columns: 1fr;
+  }
+  /* FOOTER */
+  .footer__container {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .footer__copyright {
+    text-align: center;
+  }
+  .footer__social-link {
+    font-size: var(--h2-font-size);
+  }
+}
 /* ==================== Google Fonts ==================== */
 /* ==================== Google Fonts ==================== */
