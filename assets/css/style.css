@@ -306,6 +306,30 @@ input[type="checkbox"] {
   color: var(--title-color);
   transition: all 0.3s ease;
 }
+.nav__bar{
+  position: relative;
+  display: none;
+}
+.bar__line{
+  width: 25px;
+  height: 5px;
+  background-color: var(--first-color);
+  border: none;
+  margin: 0.3rem;
+  border-radius: 15%;
+  cursor: pointer;
+}
+.nav__bar:hover :is(.nav__list__bar){
+  display: block;
+}
+.nav__list__bar{
+  display: none;
+  position: absolute;
+  right: 0;
+  background: black;
+  text-align: end;
+  padding: 2rem;
+}
 /* ==================== ACTIVE LINK ==================== */
 .active-link,
 .nav__link:hover {
@@ -802,6 +826,12 @@ input[type="checkbox"] {
   /* Header */
   .nav__list {
     display: none;
+  }
+  .nav__bar{
+    display: block;
+  }
+  .nav__link-bar{
+    font-size: var(--h3-font-size);
   }
   /* Home */
   .home__container {
